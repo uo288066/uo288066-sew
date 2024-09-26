@@ -28,9 +28,19 @@
         <p>Dorsal: 14</p>
         <p>Nacimiento: Oviedo, Asturias; 29 de julio de 1981</p>
         <p>Lugar de residencia: Oviedo, Asturias</p>
-        <img 
-            alt = "Fernando Alonso"
-            src = "multimedia/imagenes/falonso.png">
+
+        <picture>
+            <source media = "max-width = 465px"
+                srcset="multimedia/imagenes/falonso_movil"/>
+                <source media = "max-width = 799px"
+                srcset="multimedia/imagenes/falonso_tablet"/>
+                <source media = "max-width = 800px"
+                srcset="multimedia/imagenes/falonso_monitor"/>
+            <img 
+                alt = "Fernando Alonso"
+                src = "multimedia/imagenes/falonso.png">
+        </picture>
+
     <h3>Presentación</h3>
         <p>
             Piloto de automovilismo español, galardonado como premio Príncipe de Asturias en 2005.
